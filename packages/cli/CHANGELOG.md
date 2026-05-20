@@ -1,5 +1,11 @@
 # @hyperdx/cli
 
+## 0.4.2
+
+### Patch Changes
+
+- 8810ff0f: feat: Add option for force-enabling/disabling text index support
+
 ## 0.4.1
 
 ### Patch Changes

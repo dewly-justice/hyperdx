@@ -1,5 +1,22 @@
 # @hyperdx/app
 
+## 2.28.0
+
+### Minor Changes
+
+- 1df7583d: feat: emit Lucene conditions from sidebar/dashboard filters to enable KV items direct_read optimization on Map columns
+
+  Legacy `type: 'sql'` filters in URLs are automatically migrated to Lucene
+  on page load. The persisted `DashboardFilter.expression` in MongoDB is unchanged.
+
+### Patch Changes
+
+- 8810ff0f: feat: Add option for force-enabling/disabling text index support
+- Updated dependencies [1df7583d]
+- Updated dependencies [8810ff0f]
+  - @hyperdx/common-utils@0.20.0
+  - @hyperdx/api@2.28.0
+
 ## 2.27.0
 
 ### Patch Changes
